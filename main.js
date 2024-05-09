@@ -1,20 +1,4 @@
-// let firstNama = "jihn";
-// let lastNama = "johon";
-// const person = {
-//   firstNama,
-//   lastNama,
-// };
-// console.log(person);
-// 222222
-// let n = prompt();
-// let obj = {};
-
-// for (let i = 1; i <= n; i++) {
-//   obj[i] = i * i;
-// }
-
-// console.log(obj);
-// 1111111
+// 1-Object
 // function displayObj(obj) {
 //   for (let key in obj) {
 //     console.log(`${key}: ${obj[key]}`);
@@ -27,33 +11,25 @@
 //   languaues: ["java", "python", "c++"],
 //   friends: ["diyorbek", "Umarali", "Behruz", "Alpomish"],
 // });
+// 2-OBJECT
+// let n = prompt();
+// let obj = {};
+
+// for (let i = 1; i <= n; i++) {
+//   obj[i] = i * i;
+// }
+
+// console.log(obj);
 // 3- object
+
 // let n = prompt();
 // let obj = {};
 // for (let i = 1; i <= n; i++) {
 //   obj[i] = i * i;
 // }
 // console.log(obj);
-// 6-objecct
-// function defineObject(obj) {
-//     var keys = Object.keys(obj);
-
-//     for (var i = 0; i < keys.length; i++) {
-//         if (typeof obj[keys[i]] !== 'string') {
-//             return false;
-//         }
-//     }
-//     return true;
-// }
-
-// var exampleObject = {
-//     key1: "value1",
-//     key2: "value2",
-//     key3: "value3"
-// };
-
-// console.log(defineObject(exampleObject)); /
 // 4 - objecttt
+
 // function createObjectFromArray(arr) {
 //     var obj = {};
 
@@ -70,3 +46,32 @@
 // var exampleArray = ["Sultonqul ", "Safarmurod","o'rol","Jahonger"];
 
 // console.log(createObjectFromArray(exampleArray));
+
+// 5 - object;
+// let mahsulotlar = { Apilsin: 10000, olma: 12000, Mandarin: 8000, Banan: 20000 };
+
+// let narxlar = Object.values(mahsulotlar);
+// let barchaMahsulotlarNarxi = narxlar.reduce((a, b) => a + b, 0);
+
+// console.log("Hama mevalar turishi:", narxlar.length);
+// console.log("Hama mevalar narxi:", barchaMahsulotlarNarxi);
+
+// 6-objecct
+// function defineObject(obj) {
+//   var keys = Object.keys(obj);
+
+//   for (var i = 0; i < keys.length; i++) {
+//     if (typeof obj[keys[i]] !== "string") {
+//       return false;
+//     }
+//   }
+//   return true;
+// }
+
+// var exampleObject = {
+//   key1: "salom1",
+//   key2: "salom2",
+//   key3: "salom3",
+// };
+
+// console.log(defineObject(exampleObject));
